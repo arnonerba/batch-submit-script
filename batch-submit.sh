@@ -4,6 +4,12 @@
 # Batch Submit #
 ################
 
+# This project is a functional proof-of-concept Bash script designed to allow multiple processes
+# to be run sequentially in the background on Linux. It is designed so that multiple scripts for
+# programs such as R or Stata can be run in the background without interfering with each other
+# or requiring manual intervention. Output from scripts will be written to a file created by mktemp
+# in the same directory as the submitted script.
+#
 # © The Regents of the University of California, Davis campus, 2019. All rights reserved.
 
 error() {
